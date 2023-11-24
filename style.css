@@ -13,8 +13,12 @@
 #nav-bar #links ul li:nth-child(3) ul #response:hover ul{
     display:block;
 }
-
+#footer #threeFooter div ul li{
+    transition:all .8s;
+}
 #footer #threeFooter div ul li:hover{
     transform:translateX(20px);
+    background-color:none;
+    
     
 }
