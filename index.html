@@ -223,8 +223,19 @@
 				position:absolute;
 				
 			}
-			#topText h1 ,#topText h3{
+				#topText h1 ,#topText h3{
 				font-family:arial;
+				animation-name:topOpacity;
+				animation-duration:5s;
+				animation-delay:2s;
+			}
+			@keyframes topOpacity{
+				from{
+					opacity:-1;
+				}
+				to{
+					opacity:5;
+				}
 			}
 			#topText h1{
 				font-size:50px;
